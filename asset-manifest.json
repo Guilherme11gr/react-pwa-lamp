@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-pwa-lamp/static/css/main.ee7cbe69.chunk.css",
-    "main.js": "/react-pwa-lamp/static/js/main.60376cc4.chunk.js",
-    "main.js.map": "/react-pwa-lamp/static/js/main.60376cc4.chunk.js.map",
+    "main.css": "/react-pwa-lamp/static/css/main.8d98246b.chunk.css",
+    "main.js": "/react-pwa-lamp/static/js/main.d0fb9bca.chunk.js",
+    "main.js.map": "/react-pwa-lamp/static/js/main.d0fb9bca.chunk.js.map",
     "runtime~main.js": "/react-pwa-lamp/static/js/runtime~main.015b84da.js",
     "runtime~main.js.map": "/react-pwa-lamp/static/js/runtime~main.015b84da.js.map",
     "static/js/2.c3bc6166.chunk.js": "/react-pwa-lamp/static/js/2.c3bc6166.chunk.js",
     "static/js/2.c3bc6166.chunk.js.map": "/react-pwa-lamp/static/js/2.c3bc6166.chunk.js.map",
     "index.html": "/react-pwa-lamp/index.html",
-    "precache-manifest.89611c1991dddde0fcbb26a4a66a1159.js": "/react-pwa-lamp/precache-manifest.89611c1991dddde0fcbb26a4a66a1159.js",
+    "precache-manifest.e45a342b2a4a84ec82f634f9cc994dbc.js": "/react-pwa-lamp/precache-manifest.e45a342b2a4a84ec82f634f9cc994dbc.js",
     "service-worker.js": "/react-pwa-lamp/service-worker.js",
-    "static/css/main.ee7cbe69.chunk.css.map": "/react-pwa-lamp/static/css/main.ee7cbe69.chunk.css.map",
+    "static/css/main.8d98246b.chunk.css.map": "/react-pwa-lamp/static/css/main.8d98246b.chunk.css.map",
     "static/media/lamp-off.svg": "/react-pwa-lamp/static/media/lamp-off.c722f500.svg",
     "static/media/lamp-on.svg": "/react-pwa-lamp/static/media/lamp-on.41b4ebc8.svg"
   }
