@@ -1,0 +1,28 @@
+.cls-5,
+.cls-6 {
+  stroke: #e75e5e;
+  stroke-width: 10px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.cls-6 {
+  fill: transparent;
+}
+
+.stroke-anim {
+  animation: stroke-anim 4s normal;
+}
+
+@keyframes stroke-anim {
+  from {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+  }
+
+  to {
+    stroke-dasharray: 0%;
+    stroke-dashoffset: 0%;
+  }
+}

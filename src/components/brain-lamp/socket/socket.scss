@@ -1,0 +1,25 @@
+.cls-1 {
+  fill: none;
+}
+
+.cls-1 {
+  stroke: #436fb6;
+}
+
+.cls-1 {
+  stroke-miterlimit: 10;
+  stroke-width: 7px;
+  animation: stroke-anim 4s forwards;
+}
+
+@keyframes stroke-anim {
+  from {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+  }
+
+  to {
+    stroke-dasharray: 0%;
+    stroke-dashoffset: 0%;
+  }
+}
