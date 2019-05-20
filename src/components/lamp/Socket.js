@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LampSleever = () => {
+const Socket = () => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg">
       <path d="M 2149.985 4471.114 C 2149.985 4701.158 2356.277 4887.645 2610.75 4887.645 L 2610.75 4054.584 C 2356.277 4054.584 2149.985 4241.07 2149.985 4471.114 Z"
@@ -50,5 +50,5 @@ const LampSleever = () => {
   )
 }
 
-export default LampSleever
+export default Socket
 
