@@ -8,10 +8,15 @@ MQTT.connect();
 function App() {
   const [lampOn, setLampOn] = useState(false);
 
-  const turnLampOn = () => {
-    MQTT.turnLampOn();
-    setLampOn(!lampOn);
+  MQTT.mqttClient.onMessageArrived = (message) => {
+    const onMsgArrivedMessage = `${message.destinationName} - ${message.payloadString}`;
+
+    console.log(onMsgArrivedMessage);
+
+    setLampOn(message.payloadString === '1');
   }
+
+  const turnLampOn = () => MQTT.turnLampOn(!lampOn);
 
   return (
     <div className="container">
@@ -20,10 +25,6 @@ function App() {
         <h2 style={{ textAlign: 'center', color: '#efefef' }}>
           {MQTT.isConnected}
         </h2>
-
-        <h3 style={{ textAlign: 'center', color: '#efefef' }}>
-          {MQTT.onMsgArrivedMessage}
-        </h3>
       </div>
     </div>
   );
