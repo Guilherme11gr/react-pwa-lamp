@@ -2,7 +2,7 @@ import React from 'react'
 import Socket from './Socket';
 import './lamp.scss'
 
-const Lamp = ({ on = false }) => {
+const Lamp = ({ on = false, onclick }) => {
   return (
     <svg className="lamp bounce"
       xmlns="http://www.w3.org/2000/svg"

@@ -1,47 +1,29 @@
 import React, { useState } from 'react';
 import Lamp from './components/lamp/Lamp';
-import Paho from 'paho-mqtt';
+import MQTT from './api/MQTT';
 import './App.scss';
+
+MQTT.connect();
 
 function App() {
   const [lampOn, setLampOn] = useState(false);
 
-  const config = {
-    host: 'test.mosquitto.org',
-    port: 8080,
-    clientId: `web-${new Date().getTime()}`,
+  const turnLampOn = () => {
+    MQTT.turnLampOn();
+    setLampOn(!lampOn);
   }
-
-  let lastState;
-
-  const mqttClient = new Paho.Client(config.host, config.port, config.clientId);
-
-  mqttClient.connect({
-    onSuccess: () => {
-      console.log('Connected !');
-      mqttClient.subscribe('iot/1337');
-    },
-    onFailure: (err) => console.log('Error:', err)
-  })
-
-  mqttClient.onConnectionLost = (resObj) => resObj.errorCode !== 0 ? console.log(`onConnectionLost: ${resObj.errorMessage}`) : null;
-
-  mqttClient.onMessageArrived = (message) => {
-    console.log(`${message.destinationName} - ${message.payloadString}`);
-    lastState = message.payloadString;
-  }
-
-  // const message = new Paho.Message(lastState === '0' ? '1' : '0');
-
-  // message.destinationName = 'iot/1337';
-
-  // mqttClient.send(message);
-
 
   return (
     <div className="container">
-      <div onClick={() => setLampOn(!lampOn)}>
+      <div onClick={turnLampOn}>
         <Lamp on={lampOn} />
+        <h2 style={{ textAlign: 'center', color: '#efefef' }}>
+          {MQTT.isConnected}
+        </h2>
+
+        <h3 style={{ textAlign: 'center', color: '#efefef' }}>
+          {MQTT.onMsgArrivedMessage}
+        </h3>
       </div>
     </div>
   );
