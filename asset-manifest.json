@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-pwa-lamp/static/css/main.b5212a8c.chunk.css",
-    "main.js": "/react-pwa-lamp/static/js/main.4af575a2.chunk.js",
-    "main.js.map": "/react-pwa-lamp/static/js/main.4af575a2.chunk.js.map",
+    "main.css": "/react-pwa-lamp/static/css/main.e2183bb7.chunk.css",
+    "main.js": "/react-pwa-lamp/static/js/main.eb8675cf.chunk.js",
+    "main.js.map": "/react-pwa-lamp/static/js/main.eb8675cf.chunk.js.map",
     "runtime~main.js": "/react-pwa-lamp/static/js/runtime~main.015b84da.js",
     "runtime~main.js.map": "/react-pwa-lamp/static/js/runtime~main.015b84da.js.map",
-    "static/js/2.c824e9c9.chunk.js": "/react-pwa-lamp/static/js/2.c824e9c9.chunk.js",
-    "static/js/2.c824e9c9.chunk.js.map": "/react-pwa-lamp/static/js/2.c824e9c9.chunk.js.map",
+    "static/js/2.2065807e.chunk.js": "/react-pwa-lamp/static/js/2.2065807e.chunk.js",
+    "static/js/2.2065807e.chunk.js.map": "/react-pwa-lamp/static/js/2.2065807e.chunk.js.map",
     "index.html": "/react-pwa-lamp/index.html",
-    "precache-manifest.29436b9fd550394428cdf48a17333c40.js": "/react-pwa-lamp/precache-manifest.29436b9fd550394428cdf48a17333c40.js",
+    "precache-manifest.a93e3e786b47a6de865e101242d6c7d7.js": "/react-pwa-lamp/precache-manifest.a93e3e786b47a6de865e101242d6c7d7.js",
     "service-worker.js": "/react-pwa-lamp/service-worker.js",
-    "static/css/main.b5212a8c.chunk.css.map": "/react-pwa-lamp/static/css/main.b5212a8c.chunk.css.map"
+    "static/css/main.e2183bb7.chunk.css.map": "/react-pwa-lamp/static/css/main.e2183bb7.chunk.css.map"
   }
 }
