@@ -1,17 +1,15 @@
-.lamp {
-  animation: bounce-in-bottom 0.8s cubic-bezier(0.23, 1, 0.32, 1) 0.5s both;
-  margin-top: 4rem;
-  height: 60vmin;
-  pointer-events: none;
+.brain-lamp {
+  width: 4rem;
+  height: 4rem;
   overflow: hidden;
   cursor: pointer;
 }
 
 .blink-1 {
-	animation: blink-1 0.8s 4.7s ;
+  animation: blink-1 0.8s 4.7s;
 }
 
- @keyframes blink-1 {
+@keyframes blink-1 {
   0%,
   50%,
   100% {
@@ -24,7 +22,7 @@
 }
 
 .flicker-5 {
-	animation: flicker-5 8s linear infinite both;
+  animation: flicker-5 8s linear infinite both;
 }
 
 @keyframes flicker-5 {

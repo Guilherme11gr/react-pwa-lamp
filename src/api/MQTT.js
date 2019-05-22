@@ -3,7 +3,7 @@ import Paho from 'paho-mqtt'
 class MQTT {
 
   static config = {
-    host: 'ec2-35-166-18-111.us-west-2.compute.amazonaws.com',
+    host: '35.166.18.111',
     port: 3033,
     clientId: `web-${new Date().getTime()}`,
     filter: 'iot/1337',
