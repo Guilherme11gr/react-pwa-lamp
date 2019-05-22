@@ -1,8 +1,7 @@
 {
-  "name": "react-pwa",
+  "name": "aws-lamp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://guilherme11gr.github.io/react-pwa-lamp/",
   "dependencies": {
     "node-sass": "^4.12.0",
     "paho-mqtt": "^1.1.0",
